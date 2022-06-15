@@ -10,13 +10,14 @@ while (n > 1) {
     console.log(n)
 }
 
-while (n < 100) {
+while (n <= 100) {
     console.log(n)
-    
+    n = (n+2)
 }
 
-n--
+n = 0
 
-for (n; n > 1; n = (n - 2)) {
+while (n <= 100) {
     console.log(n)
+    n = (n+2)
 }
